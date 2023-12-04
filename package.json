@@ -1,0 +1,25 @@
+{
+  "name": "lhgnn-sn-bot",
+  "version": "1.0.0",
+  "description": "Pacote de games da sN Club.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulioAzvd/sn-games"
+  },
+  "keywords": [
+    "sngames"
+  ],
+  "author": "LHGNN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulioAzvd/sn-games/issues"
+  },
+  "homepage": "https://github.com/JulioAzvd/sn-games#readme"
+}
