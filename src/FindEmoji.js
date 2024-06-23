@@ -3,7 +3,7 @@ const { disableButtons, shuffleArray, formatMessage, ButtonBuilder } = require('
 const events = require('events');
 
 
-module.exports = class FindEmoji extends events {  
+export class FindEmoji extends events {  
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

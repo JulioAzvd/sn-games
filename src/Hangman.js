@@ -4,7 +4,7 @@ const words = require('../utils/words.json');
 const events = require('events');
 
 
-module.exports = class Hangman extends events {
+export class Hangman extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

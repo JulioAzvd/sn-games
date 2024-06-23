@@ -5,7 +5,7 @@ const HEIGHT = 10;
 const WIDTH = 15;
 
 
-module.exports = class SnakeGame extends events {
+export class SnakeGame extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

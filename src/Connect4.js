@@ -2,8 +2,7 @@ const { disableButtons, formatMessage, ButtonBuilder } = require('../utils/utils
 const { EmbedBuilder, ActionRowBuilder } = require('discord.js');
 const approve = require('../utils/approve');
 
-
-module.exports = class Connect4 extends approve {
+export class Connect4 extends approve {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

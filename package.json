@@ -1,15 +1,16 @@
 {
   "name": "lhgnn-sn-bot",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Pacote de games da sN Club.",
   "main": "index.js",
+  "types": "types/*",
   "scripts": {
     "test": "cd test && node ."
   },
   "author": "LHGNN",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.8.0",
+    "discord.js": "^14.15.3",
     "html-entities": "2.4.0",
     "node-fetch": "^2.6.7"
   },

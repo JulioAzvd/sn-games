@@ -3,7 +3,7 @@ const { disableButtons, shuffleArray, formatMessage, buttonStyle, ButtonBuilder 
 const events = require('events');
 
 
-module.exports = class MatchPairs extends events {
+export class MatchPairs extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

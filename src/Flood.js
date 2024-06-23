@@ -4,7 +4,7 @@ const squares = ['🟥', '🟦', '🟧', '🟪', '🟩'];
 const events = require('events');
 
 
-module.exports = class Flood extends events {
+export class Flood extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

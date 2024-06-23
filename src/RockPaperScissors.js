@@ -3,7 +3,7 @@ const { formatMessage, ButtonBuilder } = require('../utils/utils');
 const approve = require('../utils/approve');
 
 
-module.exports = class RPSGame extends approve {
+export class RPSGame extends approve {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

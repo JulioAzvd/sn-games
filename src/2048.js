@@ -4,7 +4,7 @@ const chars = '0123456789abcdefghijklmnopqrstuvwxyz';
 const events = require('events');
 
 
-module.exports = class TwoZeroFourEight extends events {
+export class TwoZeroFourEight extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

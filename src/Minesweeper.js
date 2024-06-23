@@ -3,7 +3,7 @@ const { disableButtons , getNumEmoji, formatMessage, ButtonBuilder } = require('
 const events = require('events');
 
 
-module.exports = class Minesweeper extends events {
+export class Minesweeper extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

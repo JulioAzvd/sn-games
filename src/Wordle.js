@@ -3,7 +3,7 @@ const words = require('../utils/words.json');
 const events = require('events');
 
 
-module.exports = class Wordle extends events {
+export class Wordle extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

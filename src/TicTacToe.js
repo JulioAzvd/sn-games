@@ -3,7 +3,7 @@ const { disableButtons, formatMessage, ButtonBuilder } = require('../utils/utils
 const approve = require('../utils/approve');
 
 
-module.exports = class TicTacToe extends approve {
+export class TicTacToe extends approve {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;

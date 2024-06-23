@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const events = require('events');
 
 
-module.exports = class GuessThePokemon extends events {
+export class GuessThePokemon extends events {
   constructor(options = {}) {
 
     if (!options.isSlashGame) options.isSlashGame = false;
